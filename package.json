@@ -1,10 +1,11 @@
 {
   "name": "eat-da-burger",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "### Overview",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/crizk-crizk/eat-da-burger/issues"
   },
-  "homepage": "https://github.com/crizk-crizk/eat-da-burger#readme"
+  "homepage": "https://github.com/crizk-crizk/eat-da-burger#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {}
 }

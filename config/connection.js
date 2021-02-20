@@ -11,7 +11,7 @@ connection = mysql.createConnection({
   port: 3306,
   user: 'root',
   // NOTE: Be sure to add your MySQL password here!
-  password: '1234qwer',
+  password: process.env.DB_PASSWORD,
   database: 'burgers_db',
 });
 }

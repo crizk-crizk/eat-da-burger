@@ -1,13 +1,17 @@
 <li>
+	<span class="bu-name-container">
 	{{burger_name}}
-
-	<button class="change-devour" data-id="{{id}}" data-newburger="{{devour}}">
-		{{#if devour}}Devour it!{{else}}WAKE UP!{{/if}}
+	</span>
+{{#if devour}}
+	<button class="change-devour" data-id="{{id}}" data-newdevour="{{devour}}">
+		Devour it!
 	</button>
+{{/if}}
 
 	{{!-- delete btn --}}
+	{{#unless devour}}
 		<button class="delete-burger" data-id="{{id}}">
-		DELETE BURGER
+		&nbsp&nbspDelete&nbsp&nbsp
 	</button>
-
+{{/unless}}
 </li>

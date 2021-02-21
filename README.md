@@ -7,7 +7,7 @@ Eat-Da-Burger is a burger logger that allows me to add a burger to a list accomp
 The MVC design pattern is followed. MySQL, Node JS, Express, Handlebars and a homemade ORM are utilized to make this an intractive and user-friendly application. 
 
 ## Deployed App  🚀 👽  
-Eat-Da-Burger is on **Heroku**! [Click here to launch]().
+Eat-Da-Burger is on **Heroku**! [Click here to launch](https://log-my-burgers.herokuapp.com/).
 
 ## Installation Steps 🦾 ✨ 
 * Fork the repo.

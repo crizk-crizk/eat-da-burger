@@ -21,5 +21,5 @@ To start this application input this command in the terminal
 node server.js
 ```
 
-## Questions 🤔 ❓ 
+### Questions 🤔 ❓ 
 Find all my contact info in my [portfolio website](https://crizk-crizk.github.io/MyPortfolio/)
